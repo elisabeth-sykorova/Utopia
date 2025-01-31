@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(29, 29, 29, 1);
+    color: whitesmoke;
+}
+
+canvas {
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+}
+
+#text {
+  font-family: monospace;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div#modal{
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(29, 29, 29); /* Fallback color */
+  background-color: rgb(29, 29, 29); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: rgba(29, 29, 29, 1);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 2px solid #A177CA;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+button.saved-data-accept{
+  background-color: #A177CA;
+  color: whitesmoke;
+  font-family: monospace;
+}
+
+button.saved-data-refusal{
+  background-color: #A177CA;
+  font-family: monospace;
+  color: whitesmoke;
+}
+
+audio {
+  display: none;
+}
+
+#quote {
+  margin-bottom: 20%;
+  font-family: monospace;
+  display: inline-block;
+  text-align: center;
+  color: #4b4b4b;
+}
+
+#quote2 {
+  margin-top: 25%;
+  font-family: monospace;
+  text-align: right;
+  color: #4b4b4b;
+}

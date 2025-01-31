@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Elisabeth Sykorova">
+    <title>Utopia</title>
+    <link rel="manifest" href="manifest.json">
+    <link href="assets/css/screen.css" rel="stylesheet" text="text/css">
+    <link rel="icon" href="assets/images/icon-192-192.png" type="image/x-icon"/>
+
+    <link rel="apple-touch-icon" href="assets/images/icon-192-192.png">
+    <meta name="theme-color" content="white"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Utopia">
+    <meta name="msapplication-TileImage" content="assets/images/icon-192-192.png"> <!-- meta data for different platforms -->
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <link rel="shortcut icon" href="#">
+    <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+<p id="quote">In an ideal world, there can be no differences among people.</p>
+<div id="text">
+<form name="nameForm" method="get" action="gameplay.html" onsubmit= "validateForm()"> 
+   Sign with full name: <input type = "text" name="name">
+    <input type="submit" value="Submit">
+</form>
+
+<div id ="modal">
+    <div class = "modal-content">
+        <p class = "retrievedata">Are you returning to your duty?</p>
+        <code id="data-from-storage" class = "present-saved-data"></code>
+        <br><br>
+        <button class ="saved-data-accept">Yes. </button><button class ="saved-data-refusal">
+            No, start a new shift.</button>
+    </div>
+</div>
+</div>
+<p id="quote2">In an ideal world, there can be no differences among people.</p>
+<script src="main.js"></script>
+<script type="text/javascript" src="assets/js/initial.js"></script>
+</body>
+</html>

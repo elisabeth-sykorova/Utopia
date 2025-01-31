@@ -1,0 +1,33 @@
+{
+    "name": "Utopia",
+    "short_name": "Utopia",
+    "lang": "en-GB",
+    "display": "standalone",
+    "orientation": "landscape-primary",
+    "background_color": "white",
+    "theme_color": "white",
+    "start_url": "/Elisabeth_Sykorova_C00301316-UI-Programming-Module-Project/index.html",
+    "scope": "/Elisabeth_Sykorova_C00301316-UI-Programming-Module-Project",
+    "icons": [{
+        "src": "assets/images/icon-192-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },{
+        "src": "assets/images/icon-256-256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },{
+        "src": "assets/images/icon-384-384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose":"any maskable"
+    },{
+        "src": "assets/images/icon-512-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose":"any maskable"
+    }
+    ]
+}
