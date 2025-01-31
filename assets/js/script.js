@@ -60,7 +60,7 @@ if (savedStability) // if the value has been saved in local storage, use that va
         stabilityLevel = savedStability;
     }
 
-let stabilityDecrease = 0.015; // decreases over time
+let stabilityDecrease = 0.007; // decreases over time
 let incorrectDetectDecrease = 10; // incorrect detect
 let undetectedDecrease = 20; // undetected decrease
 let correctDetectIncrease = 5; // increase when correct
@@ -176,9 +176,9 @@ let defectRarity = 5; // rarity of defects (ratio 1:x)
 // speed and movement
 let xSpeedIncrement = 0.03;
 let speedUpEvery = 3;
-let xSpeed = 1.1 * (screen.width/1920) + (xSpeedIncrement * detected/2); // stays the same across all devices (default speed 2 set on a 1920 width)
+let xSpeed = 0.7 * (screen.width/1920) + (xSpeedIncrement * detected/2); // stays the same across all devices (default speed 2 set on a 1920 width)
 let shiftY = 15;
-let ySpeed = 6;
+let ySpeed = 4;
 
 
 // tracking mouse position to check boundaries when clicking people
@@ -188,7 +188,7 @@ let mouseY = 0;
 
 // animation
 let currentFrame = 0;
-let frameIncrement = 0.017;
+let frameIncrement = 0.008;
 let frameLimit = 8;
 const NUM_OF_TYPES = 16; // number of types of textures for people (number of rows in the spritesheet)
 
